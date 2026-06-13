@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://api.cloudflare.com/$1"
+    }
+  ]
+}
